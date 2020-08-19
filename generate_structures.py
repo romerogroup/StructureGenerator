@@ -408,7 +408,7 @@ if __name__ == "__main__":
 
             multiplicity = int(iposition[0])
             letter = iposition[1]
-            if multiplicity > max_stoichiometry:
+            if multiplicity > args.max_stoichiometry:
                 continue
             for ielement in args.elements:#pychemia.utils.periodic.atomic_symbols:
 
